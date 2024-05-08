@@ -35,6 +35,14 @@ input{
   width: 200px;
   padding-left: 5px;
 }
+.image img {
+  width: 30px;
+  height: 30px; 
+  border-radius: 50%; 
+  border: 2px solid #fff;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5); 
+  transition: transform 0.2s ease-in-out; 
+}
 
 @media only screen and (max-width: 768px) {
   body {
@@ -42,5 +50,8 @@ input{
   }
   input{
     width: 150px;
+  }
+  .search-bar{
+    width: 350px;
   }
 }
