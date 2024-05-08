@@ -1,0 +1,37 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container{
+  background-color: white;
+  padding: 50px;
+}
+.search-bar{
+  padding: 10px;
+  background-color: cadetblue;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0px auto ;
+  margin-top: 30px;
+  gap: 10px;
+}
+div div{
+  /* border: 1px solid #000; */
+  color: white;
+}
+
+input{
+  outline: none;
+  width: 200px;
+  padding-left: 5px;
+}
